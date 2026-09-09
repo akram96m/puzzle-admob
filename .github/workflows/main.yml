@@ -25,7 +25,7 @@ jobs:
       - name: Extract Android project
         run: |
           mkdir project
-          unzip -q 'حل_الألغاز_AdMob_Rewarded_مستقل.zip' -d project
+          unzip -q 'حل_الألغاز_AdMob_Rewarded_مستقل_معدل.zip' -d project
           echo "Extracted files:"
           find project -maxdepth 3 -type f | head -50
 
